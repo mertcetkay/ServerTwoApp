@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:batch="http://www.springframework.org/schema/batch"
+       xmlns:websocket="http://www.springframework.org/schema/websocket"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch.xsd http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket.xsd">
+
+
+
+    <!--
+    <websocket:handlers>
+        <websocket:mapping path="/app" handler="myHandler"/>
+    </websocket:handlers>
+
+    <bean id="myHandler" class="tr.com.frontech.hw.server2.controller.websocket.WebSocketController"/>
+    -->
+
+    <!-- business logic -->
+    <!-- explicit approach <->  more control -->
+    <!--bean id="dataUpdateEventHandler" class="tr.com.frontech.hw.server1.event.DataUpdateEventHandler" /-->
+
+
+    <!-- websocket client -->
+    <!-- restclient ta olur -->
+
+    <!-- ??? -->
+
+</beans>
